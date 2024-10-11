@@ -12,16 +12,20 @@
 
 
 
-//module.exports = (on, config) => {
+//  module.exports = (on, config) => {
 
-//     const pool = new Pool({
-//         host: 'localhost',
-//         user:'postgres',
-//         password:'1234',
-//         database:'postgres',
-//         port: 5432
+//     const configJson = require(config.configFile)
 
-//     })
+//     const pool = new Pool(configJson.dbConfig)
+
+// //     const pool = new Pool({
+// //         host: 'localhost',
+// //         user:'postgres',
+// //         password:'1234',
+// //         database:'postgres',
+// //         port: 5432
+
+// //     })
 
 //     on('task', {
 //         removeUser(email) {
@@ -40,7 +44,7 @@
 //         }
 
 
-//     })
+//      })
 
 
-// }
+//  }
